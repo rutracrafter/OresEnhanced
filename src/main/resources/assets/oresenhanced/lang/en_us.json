@@ -1,0 +1,16 @@
+{
+  "item.oresenhanced.raw_jazerith": "Raw Jazerith",
+  "item.oresenhanced.raw_skadium": "Raw Skadium",
+  "item.oresenhanced.raw_kelgamite": "Raw Kelgamite",
+  "item.oresenhanced.raw_razion": "Raw Razion",
+
+  "item.oresenhanced.jazerith": "Jazerith",
+
+
+  "block.oresenhanced.jazerith_block": "Block of Jazerith",
+  "block.oresenhanced.raw_jazerith_block": "Block of Raw Jazerith",
+  "block.oresenhanced.jazerith_ore": "Jazerith Ore",
+
+  "creativetab.oresenhanced.oresenhanced_items": "Ores Enhanced Items",
+  "creativetab.oresenhanced.oresenhanced_blocks": "Ores Enhanced Blocks"
+}
