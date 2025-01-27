@@ -15,11 +15,20 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
-        blockWithItem(ModBlocks.JAZERITH_BLOCK);
         blockWithItem(ModBlocks.RAW_JAZERITH_BLOCK);
+        blockWithItem(ModBlocks.RAW_SKADIUM_BLOCK);
+        blockWithItem(ModBlocks.RAW_KELGAMITE_BLOCK);
+        blockWithItem(ModBlocks.RAW_RAZION_BLOCK);
+
+        blockWithItem(ModBlocks.JAZERITH_BLOCK);
+        blockWithItem(ModBlocks.SKADIUM_BLOCK);
+        blockWithItem(ModBlocks.KELGAMITE_BLOCK);
+        blockWithItem(ModBlocks.RAZION_BLOCK);
 
         blockWithItem(ModBlocks.JAZERITH_ORE);
-
+        blockWithItem(ModBlocks.SKADIUM_ORE);
+        blockWithItem(ModBlocks.KELGAMITE_ORE);
+        blockWithItem(ModBlocks.RAZION_ORE);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

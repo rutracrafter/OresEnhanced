@@ -70,12 +70,28 @@ public class OresEnhanced {
             event.accept(ModItems.RAW_SKADIUM);
             event.accept(ModItems.RAW_KELGAMITE);
             event.accept(ModItems.RAW_RAZION);
+
+            event.accept(ModItems.JAZERITH);
+            event.accept(ModItems.SKADIUM);
+            event.accept(ModItems.KELGAMITE);
+            event.accept(ModItems.RAZION);
         }
 
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.JAZERITH_BLOCK);
             event.accept(ModBlocks.RAW_JAZERITH_BLOCK);
+            event.accept(ModBlocks.RAW_SKADIUM_BLOCK);
+            event.accept(ModBlocks.RAW_KELGAMITE_BLOCK);
+            event.accept(ModBlocks.RAW_RAZION_BLOCK);
+
+            event.accept(ModBlocks.JAZERITH_BLOCK);
+            event.accept(ModBlocks.SKADIUM_BLOCK);
+            event.accept(ModBlocks.KELGAMITE_BLOCK);
+            event.accept(ModBlocks.RAZION_BLOCK);
+
             event.accept(ModBlocks.JAZERITH_ORE);
+            event.accept(ModBlocks.SKADIUM_ORE);
+            event.accept(ModBlocks.KELGAMITE_ORE);
+            event.accept(ModBlocks.RAZION_ORE);
         }
     }
 

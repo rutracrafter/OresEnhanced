@@ -20,10 +20,15 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.oresenhanced.oresenhanced_items"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.RAW_JAZERITH.get());
+                        output.accept(ModItems.RAW_SKADIUM.get());
                         output.accept(ModItems.RAW_KELGAMITE.get());
                         output.accept(ModItems.RAW_RAZION.get());
-                        output.accept(ModItems.RAW_SKADIUM.get());
+
+
                         output.accept(ModItems.JAZERITH.get());
+                        output.accept(ModItems.SKADIUM.get());
+                        output.accept(ModItems.KELGAMITE.get());
+                        output.accept(ModItems.RAZION.get());
                     })
                     .build());
 
@@ -33,8 +38,20 @@ public class ModCreativeModeTabs {
                     .withTabsBefore(ORESENHANCED_ITEMS_TAB.getId())
                     .title(Component.translatable("creativetab.oresenhanced.oresenhanced_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.RAW_JAZERITH_BLOCK.get());
+                        output.accept(ModBlocks.RAW_SKADIUM_BLOCK.get());
+                        output.accept(ModBlocks.RAW_KELGAMITE_BLOCK.get());
+                        output.accept(ModBlocks.RAW_RAZION_BLOCK.get());
+
                         output.accept(ModBlocks.JAZERITH_BLOCK.get());
+                        output.accept(ModBlocks.SKADIUM_BLOCK.get());
+                        output.accept(ModBlocks.KELGAMITE_BLOCK.get());
+                        output.accept(ModBlocks.RAZION_BLOCK.get());
+
                         output.accept(ModBlocks.JAZERITH_ORE.get());
+                        output.accept(ModBlocks.SKADIUM_ORE.get());
+                        output.accept(ModBlocks.KELGAMITE_ORE.get());
+                        output.accept(ModBlocks.RAZION_ORE.get());
                     })
                     .build());
 

@@ -21,19 +21,47 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, OresEnhanced.MOD_ID);
 
-    public static final RegistryObject<Block> JAZERITH_BLOCK = registerBLock("jazerith_block",
+    public static final RegistryObject<Block> JAZERITH_BLOCK = registerBlock("jazerith_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(4f)
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final RegistryObject<Block> SKADIUM_BLOCK = registerBlock("skadium_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(4f)
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final RegistryObject<Block> KELGAMITE_BLOCK = registerBlock("kelgamite_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(4f)
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final RegistryObject<Block> RAZION_BLOCK = registerBlock("razion_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(4f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
-    public static final RegistryObject<Block> RAW_JAZERITH_BLOCK = registerBLock("raw_jazerith_block",
+
+    public static final RegistryObject<Block> RAW_JAZERITH_BLOCK = registerBlock("raw_jazerith_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).strength(4f)
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final RegistryObject<Block> RAW_SKADIUM_BLOCK = registerBlock("raw_skadium_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).strength(4f)
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final RegistryObject<Block> RAW_KELGAMITE_BLOCK = registerBlock("raw_kelgamite_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).strength(4f)
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final RegistryObject<Block> RAW_RAZION_BLOCK = registerBlock("raw_razion_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).strength(4f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
-    public static final RegistryObject<Block> JAZERITH_ORE = registerBLock("jazerith_ore",
+    public static final RegistryObject<Block> JAZERITH_ORE = registerBlock("jazerith_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).strength(4f)
+                    .requiresCorrectToolForDrops(), UniformInt.of(2, 4)));
+    public static final RegistryObject<Block> SKADIUM_ORE = registerBlock("skadium_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).strength(4f)
+                    .requiresCorrectToolForDrops(), UniformInt.of(2, 4)));
+    public static final RegistryObject<Block> KELGAMITE_ORE = registerBlock("kelgamite_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).strength(4f)
+                    .requiresCorrectToolForDrops(), UniformInt.of(2, 4)));
+    public static final RegistryObject<Block> RAZION_ORE = registerBlock("razion_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).strength(4f)
                     .requiresCorrectToolForDrops(), UniformInt.of(2, 4)));
 
-    private static <T extends Block> RegistryObject<T> registerBLock(String name, Supplier<T> block) {
+    private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
         return toReturn;

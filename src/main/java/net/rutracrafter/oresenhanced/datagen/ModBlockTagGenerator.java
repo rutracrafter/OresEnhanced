@@ -22,18 +22,44 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(
                         ModBlocks.JAZERITH_BLOCK.get(),
+                        ModBlocks.SKADIUM_BLOCK.get(),
+                        ModBlocks.KELGAMITE_BLOCK.get(),
+                        ModBlocks.RAZION_BLOCK.get(),
+
                         ModBlocks.RAW_JAZERITH_BLOCK.get(),
-                        ModBlocks.JAZERITH_ORE.get()
+                        ModBlocks.RAW_SKADIUM_BLOCK.get(),
+                        ModBlocks.RAW_KELGAMITE_BLOCK.get(),
+                        ModBlocks.RAW_RAZION_BLOCK.get(),
+
+
+                        ModBlocks.JAZERITH_ORE.get(),
+                        ModBlocks.SKADIUM_ORE.get(),
+                        ModBlocks.KELGAMITE_ORE.get(),
+                        ModBlocks.RAZION_ORE.get()
 
                 );
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(
                         ModBlocks.JAZERITH_BLOCK.get(),
-                        ModBlocks.RAW_JAZERITH_BLOCK.get()
+                        ModBlocks.SKADIUM_BLOCK.get(),
+                        ModBlocks.KELGAMITE_BLOCK.get(),
+                        ModBlocks.RAZION_BLOCK.get(),
+
+                        ModBlocks.RAW_JAZERITH_BLOCK.get(),
+                        ModBlocks.RAW_SKADIUM_BLOCK.get(),
+                        ModBlocks.RAW_KELGAMITE_BLOCK.get(),
+                        ModBlocks.RAW_RAZION_BLOCK.get()
+
+
                 );
 
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(ModBlocks.JAZERITH_ORE.get());
+                .add(
+                        ModBlocks.JAZERITH_ORE.get(),
+                        ModBlocks.SKADIUM_ORE.get(),
+                        ModBlocks.KELGAMITE_ORE.get(),
+                        ModBlocks.RAZION_ORE.get()
+                );
     }
 }

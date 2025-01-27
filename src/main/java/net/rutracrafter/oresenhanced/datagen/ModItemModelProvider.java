@@ -18,7 +18,14 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         simpleItem(ModItems.RAW_JAZERITH);
+        simpleItem(ModItems.RAW_SKADIUM);
+        simpleItem(ModItems.RAW_KELGAMITE);
+        simpleItem(ModItems.RAW_RAZION);
+
         simpleItem(ModItems.JAZERITH);
+        simpleItem(ModItems.SKADIUM);
+        simpleItem(ModItems.KELGAMITE);
+        simpleItem(ModItems.RAZION);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

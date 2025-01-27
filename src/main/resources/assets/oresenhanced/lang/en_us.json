@@ -5,11 +5,24 @@
   "item.oresenhanced.raw_razion": "Raw Razion",
 
   "item.oresenhanced.jazerith": "Jazerith",
+  "item.oresenhanced.skadium": "Skadium",
+  "item.oresenhanced.kelgamite": "Kelgamite",
+  "item.oresenhanced.razion": "Razion",
 
+  "block.oresenhanced.raw_jazerith_block": "Block of Raw Jazerith",
+  "block.oresenhanced.raw_skadium_block": "Block of Raw Skadium",
+  "block.oresenhanced.raw_kelgamite_block": "Block of Raw Kelgamite",
+  "block.oresenhanced.raw_razion_block": "Block of Raw Razion",
 
   "block.oresenhanced.jazerith_block": "Block of Jazerith",
-  "block.oresenhanced.raw_jazerith_block": "Block of Raw Jazerith",
+  "block.oresenhanced.skadium_block": "Block of Skadium",
+  "block.oresenhanced.kelgamite_block": "Block of Kelgamite",
+  "block.oresenhanced.razion_block": "Block of Razion",
+
   "block.oresenhanced.jazerith_ore": "Jazerith Ore",
+  "block.oresenhanced.skadium_ore": "Skadium Ore",
+  "block.oresenhanced.kelgamite_ore": "Kelgamite Ore",
+  "block.oresenhanced.razion_ore": "Razion Ore",
 
   "creativetab.oresenhanced.oresenhanced_items": "Ores Enhanced Items",
   "creativetab.oresenhanced.oresenhanced_blocks": "Ores Enhanced Blocks"

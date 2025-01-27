@@ -22,6 +22,13 @@ public class ModItems {
 
     public static final RegistryObject<Item> JAZERITH = ITEMS.register("jazerith",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SKADIUM = ITEMS.register("skadium",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> KELGAMITE = ITEMS.register("kelgamite",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAZION = ITEMS.register("razion",
+            () -> new Item(new Item.Properties()));
+
 
 
     public static void register(IEventBus eventBus) {
