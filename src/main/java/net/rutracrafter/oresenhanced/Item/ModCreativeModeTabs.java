@@ -24,11 +24,16 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_KELGAMITE.get());
                         output.accept(ModItems.RAW_RAZION.get());
 
-
                         output.accept(ModItems.JAZERITH.get());
                         output.accept(ModItems.SKADIUM.get());
                         output.accept(ModItems.KELGAMITE.get());
                         output.accept(ModItems.RAZION.get());
+
+                        output.accept(ModItems.JAZERITH_SWORD.get());
+                        output.accept(ModItems.JAZERITH_PICKAXE.get());
+                        output.accept(ModItems.JAZERITH_AXE.get());
+                        output.accept(ModItems.JAZERITH_SHOVEL.get());
+                        output.accept(ModItems.JAZERITH_HOE.get());
                     })
                     .build());
 

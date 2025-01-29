@@ -24,6 +24,12 @@
   "block.oresenhanced.kelgamite_ore": "Kelgamite Ore",
   "block.oresenhanced.razion_ore": "Razion Ore",
 
+  "item.oresenhanced.jazerith_sword": "Jazerith Sword",
+  "item.oresenhanced.jazerith_pickaxe": "Jazerith Pickaxe",
+  "item.oresenhanced.jazerith_axe": "Jazerith Axe",
+  "item.oresenhanced.jazerith_shovel": "Jazerith Shovel",
+  "item.oresenhanced.jazerith_hoe": "Jazerith Hoe",
+
   "creativetab.oresenhanced.oresenhanced_items": "Ores Enhanced Items",
   "creativetab.oresenhanced.oresenhanced_blocks": "Ores Enhanced Blocks"
 }

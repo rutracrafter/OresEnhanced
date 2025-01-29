@@ -26,6 +26,18 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.SKADIUM);
         simpleItem(ModItems.KELGAMITE);
         simpleItem(ModItems.RAZION);
+
+        handheldItem(ModItems.JAZERITH_SWORD);
+        handheldItem(ModItems.JAZERITH_PICKAXE);
+        handheldItem(ModItems.JAZERITH_AXE);
+        handheldItem(ModItems.JAZERITH_SHOVEL);
+        handheldItem(ModItems.JAZERITH_HOE);
+    }
+
+    private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/handheld")).texture("layer0",
+                new ResourceLocation(OresEnhanced.MOD_ID, "item/" + item.getId().getPath()));
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

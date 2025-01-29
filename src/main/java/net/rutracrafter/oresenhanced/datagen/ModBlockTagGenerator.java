@@ -7,6 +7,7 @@ import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.rutracrafter.oresenhanced.OresEnhanced;
 import net.rutracrafter.oresenhanced.block.ModBlocks;
+import net.rutracrafter.oresenhanced.util.ModTags;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
@@ -61,5 +62,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.KELGAMITE_ORE.get(),
                         ModBlocks.RAZION_ORE.get()
                 );
+
+        this.tag(ModTags.Blocks.NEEDS_JAZERITH_TOOL).add(
+                ModBlocks.RAZION_ORE.get()
+        );
     }
 }
