@@ -64,7 +64,19 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 );
 
         this.tag(ModTags.Blocks.NEEDS_JAZERITH_TOOL).add(
+                ModBlocks.SKADIUM_ORE.get()
+        );
+
+        this.tag(ModTags.Blocks.NEEDS_SKADIUM_TOOL).add(
+                ModBlocks.KELGAMITE_ORE.get()
+        );
+
+        this.tag(ModTags.Blocks.NEEDS_KELGAMITE_TOOL).add(
                 ModBlocks.RAZION_ORE.get()
         );
+
+//        this.tag(ModTags.Blocks.NEEDS_RAZION_TOOL).add(
+//                ModBlocks.RAZION_ORE.get()
+//        );
     }
 }

@@ -32,6 +32,24 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.JAZERITH_AXE);
         handheldItem(ModItems.JAZERITH_SHOVEL);
         handheldItem(ModItems.JAZERITH_HOE);
+
+        handheldItem(ModItems.SKADIUM_SWORD);
+        handheldItem(ModItems.SKADIUM_PICKAXE);
+        handheldItem(ModItems.SKADIUM_AXE);
+        handheldItem(ModItems.SKADIUM_SHOVEL);
+        handheldItem(ModItems.SKADIUM_HOE);
+
+        handheldItem(ModItems.KELGAMITE_SWORD);
+        handheldItem(ModItems.KELGAMITE_PICKAXE);
+        handheldItem(ModItems.KELGAMITE_AXE);
+        handheldItem(ModItems.KELGAMITE_SHOVEL);
+        handheldItem(ModItems.KELGAMITE_HOE);
+
+        handheldItem(ModItems.RAZION_SWORD);
+        handheldItem(ModItems.RAZION_PICKAXE);
+        handheldItem(ModItems.RAZION_AXE);
+        handheldItem(ModItems.RAZION_SHOVEL);
+        handheldItem(ModItems.RAZION_HOE);
     }
 
     private ItemModelBuilder handheldItem(RegistryObject<Item> item) {

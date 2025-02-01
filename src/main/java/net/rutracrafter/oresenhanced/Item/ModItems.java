@@ -40,6 +40,39 @@ public class ModItems {
     public static final RegistryObject<Item> JAZERITH_HOE = ITEMS.register("jazerith_hoe",
             () -> new HoeItem(ModToolTiers.JAZERITH, 1, 1, new Item.Properties()));
 
+    public static final RegistryObject<Item> SKADIUM_SWORD = ITEMS.register("skadium_sword",
+            () -> new SwordItem(ModToolTiers.SKADIUM, 5, 3, new Item.Properties()));
+    public static final RegistryObject<Item> SKADIUM_PICKAXE = ITEMS.register("skadium_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.SKADIUM, 2, 2, new Item.Properties()));
+    public static final RegistryObject<Item> SKADIUM_AXE = ITEMS.register("skadium_axe",
+            () -> new AxeItem(ModToolTiers.SKADIUM, 8, 2, new Item.Properties()));
+    public static final RegistryObject<Item> SKADIUM_SHOVEL = ITEMS.register("skadium_shovel",
+            () -> new ShovelItem(ModToolTiers.SKADIUM, 2, 2, new Item.Properties()));
+    public static final RegistryObject<Item> SKADIUM_HOE = ITEMS.register("skadium_hoe",
+            () -> new HoeItem(ModToolTiers.SKADIUM, 2, 2, new Item.Properties()));
+
+    public static final RegistryObject<Item> KELGAMITE_SWORD = ITEMS.register("kelgamite_sword",
+            () -> new SwordItem(ModToolTiers.KELGAMITE, 6, 4, new Item.Properties()));
+    public static final RegistryObject<Item> KELGAMITE_PICKAXE = ITEMS.register("kelgamite_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.KELGAMITE, 3, 3, new Item.Properties()));
+    public static final RegistryObject<Item> KELGAMITE_AXE = ITEMS.register("kelgamite_axe",
+            () -> new AxeItem(ModToolTiers.KELGAMITE, 9, 3, new Item.Properties()));
+    public static final RegistryObject<Item> KELGAMITE_SHOVEL = ITEMS.register("kelgamite_shovel",
+            () -> new ShovelItem(ModToolTiers.KELGAMITE, 3, 3, new Item.Properties()));
+    public static final RegistryObject<Item> KELGAMITE_HOE = ITEMS.register("kelgamite_hoe",
+            () -> new HoeItem(ModToolTiers.KELGAMITE, 3, 3, new Item.Properties()));
+
+    public static final RegistryObject<Item> RAZION_SWORD = ITEMS.register("razion_sword",
+            () -> new SwordItem(ModToolTiers.RAZION, 7, 5, new Item.Properties()));
+    public static final RegistryObject<Item> RAZION_PICKAXE = ITEMS.register("razion_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.RAZION, 4, 4, new Item.Properties()));
+    public static final RegistryObject<Item> RAZION_AXE = ITEMS.register("razion_axe",
+            () -> new AxeItem(ModToolTiers.RAZION, 10, 4, new Item.Properties()));
+    public static final RegistryObject<Item> RAZION_SHOVEL = ITEMS.register("razion_shovel",
+            () -> new ShovelItem(ModToolTiers.RAZION, 4, 4, new Item.Properties()));
+    public static final RegistryObject<Item> RAZION_HOE = ITEMS.register("razion_hoe",
+            () -> new HoeItem(ModToolTiers.RAZION, 4, 4, new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

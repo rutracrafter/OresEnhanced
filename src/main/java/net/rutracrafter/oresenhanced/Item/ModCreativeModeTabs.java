@@ -34,6 +34,24 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.JAZERITH_AXE.get());
                         output.accept(ModItems.JAZERITH_SHOVEL.get());
                         output.accept(ModItems.JAZERITH_HOE.get());
+
+                        output.accept(ModItems.SKADIUM_SWORD.get());
+                        output.accept(ModItems.SKADIUM_PICKAXE.get());
+                        output.accept(ModItems.SKADIUM_AXE.get());
+                        output.accept(ModItems.SKADIUM_SHOVEL.get());
+                        output.accept(ModItems.SKADIUM_HOE.get());
+
+                        output.accept(ModItems.KELGAMITE_SWORD.get());
+                        output.accept(ModItems.KELGAMITE_PICKAXE.get());
+                        output.accept(ModItems.KELGAMITE_AXE.get());
+                        output.accept(ModItems.KELGAMITE_SHOVEL.get());
+                        output.accept(ModItems.KELGAMITE_HOE.get());
+
+                        output.accept(ModItems.RAZION_SWORD.get());
+                        output.accept(ModItems.RAZION_PICKAXE.get());
+                        output.accept(ModItems.RAZION_AXE.get());
+                        output.accept(ModItems.RAZION_SHOVEL.get());
+                        output.accept(ModItems.RAZION_HOE.get());
                     })
                     .build());
 
