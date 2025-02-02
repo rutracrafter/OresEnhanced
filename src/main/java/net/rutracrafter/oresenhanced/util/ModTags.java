@@ -10,6 +10,7 @@ import net.rutracrafter.oresenhanced.OresEnhanced;
 
 public class ModTags {
     public static class Blocks {
+        public static final TagKey<Block> NEEDS_NETHERITE_TOOL = createTag("needs_netherite_tool");
         public static final TagKey<Block> NEEDS_JAZERITH_TOOL = createTag("needs_jazerith_tool");
         public static final TagKey<Block> NEEDS_SKADIUM_TOOL = createTag("needs_skadium_tool");
         public static final TagKey<Block> NEEDS_KELGAMITE_TOOL = createTag("needs_kelgamite_tool");

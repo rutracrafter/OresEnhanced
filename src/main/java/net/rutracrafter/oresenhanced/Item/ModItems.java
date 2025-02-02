@@ -63,15 +63,40 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.KELGAMITE, 3, 3, new Item.Properties()));
 
     public static final RegistryObject<Item> RAZION_SWORD = ITEMS.register("razion_sword",
-            () -> new SwordItem(ModToolTiers.RAZION, 7, 5, new Item.Properties()));
+            () -> new SwordItem(ModToolTiers.RAZION, 7, 5, new Item.Properties()){
+                @Override
+                public boolean isDamageable(ItemStack stack) {
+                    return false; // This makes the item unbreakable
+                }
+            });
     public static final RegistryObject<Item> RAZION_PICKAXE = ITEMS.register("razion_pickaxe",
-            () -> new PickaxeItem(ModToolTiers.RAZION, 4, 4, new Item.Properties()));
+            () -> new PickaxeItem(ModToolTiers.RAZION, 4, 4, new Item.Properties()){
+                @Override
+                public boolean isDamageable(ItemStack stack) {
+                    return false;
+                }
+            });
     public static final RegistryObject<Item> RAZION_AXE = ITEMS.register("razion_axe",
-            () -> new AxeItem(ModToolTiers.RAZION, 10, 4, new Item.Properties()));
+            () -> new AxeItem(ModToolTiers.RAZION, 10, 4, new Item.Properties()){
+                @Override
+                public boolean isDamageable(ItemStack stack) {
+                    return false;
+                }
+            });
     public static final RegistryObject<Item> RAZION_SHOVEL = ITEMS.register("razion_shovel",
-            () -> new ShovelItem(ModToolTiers.RAZION, 4, 4, new Item.Properties()));
+            () -> new ShovelItem(ModToolTiers.RAZION, 4, 4, new Item.Properties()){
+                @Override
+                public boolean isDamageable(ItemStack stack) {
+                    return false;
+                }
+            });
     public static final RegistryObject<Item> RAZION_HOE = ITEMS.register("razion_hoe",
-            () -> new HoeItem(ModToolTiers.RAZION, 4, 4, new Item.Properties()));
+            () -> new HoeItem(ModToolTiers.RAZION, 4, 4, new Item.Properties()){
+                @Override
+                public boolean isDamageable(ItemStack stack) {
+                    return false;
+                }
+            });
 
 
     public static void register(IEventBus eventBus) {

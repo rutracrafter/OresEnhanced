@@ -55,13 +55,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
                 );
 
-        this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(
-                        ModBlocks.JAZERITH_ORE.get(),
-                        ModBlocks.SKADIUM_ORE.get(),
-                        ModBlocks.KELGAMITE_ORE.get(),
-                        ModBlocks.RAZION_ORE.get()
-                );
+        this.tag(ModTags.Blocks.NEEDS_NETHERITE_TOOL).add(
+                ModBlocks.JAZERITH_ORE.get()
+        );
 
         this.tag(ModTags.Blocks.NEEDS_JAZERITH_TOOL).add(
                 ModBlocks.SKADIUM_ORE.get()
@@ -74,9 +70,5 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(ModTags.Blocks.NEEDS_KELGAMITE_TOOL).add(
                 ModBlocks.RAZION_ORE.get()
         );
-
-//        this.tag(ModTags.Blocks.NEEDS_RAZION_TOOL).add(
-//                ModBlocks.RAZION_ORE.get()
-//        );
     }
 }
